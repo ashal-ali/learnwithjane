@@ -64,52 +64,7 @@ const Contact = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-2xl font-serif font-bold text-tutor-navy mb-6">Get in Touch</h2>
-              <p className="text-tutor-gray mb-8">
-                I'm here to answer any questions you may have about my tutoring services. 
-                Fill out the form, and I'll respond as soon as possible.
-              </p>
-              
-              <div className="space-y-6">
-                <div className="flex items-center">
-                  <div className="bg-tutor-teal bg-opacity-20 p-3 rounded-full mr-4">
-                    <Mail className="h-6 w-6 text-tutor-teal" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-medium text-tutor-navy">Email</h3>
-                    <a href="mailto:jane.zafran@example.com" className="text-tutor-gray hover:text-tutor-teal">
-                      jane.zafran@example.com
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center">
-                  <div className="bg-tutor-teal bg-opacity-20 p-3 rounded-full mr-4">
-                    <Phone className="h-6 w-6 text-tutor-teal" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-medium text-tutor-navy">Phone</h3>
-                    <a href="tel:+11234567890" className="text-tutor-gray hover:text-tutor-teal">
-                      (123) 456-7890
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center">
-                  <div className="bg-tutor-teal bg-opacity-20 p-3 rounded-full mr-4">
-                    <Linkedin className="h-6 w-6 text-tutor-teal" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-medium text-tutor-navy">LinkedIn</h3>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-tutor-gray hover:text-tutor-teal">
-                      Jane Zafran
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
+            {/* Form - Now on the left */}
             <div>
               <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
@@ -210,6 +165,53 @@ const Contact = () => {
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
+            </div>
+            
+            {/* Get in Touch - Now on the right */}
+            <div>
+              <h2 className="text-2xl font-serif font-bold text-tutor-navy mb-6">Get in Touch</h2>
+              <p className="text-tutor-gray mb-8">
+                I'm here to answer any questions you may have about my tutoring services. 
+                Fill out the form, and I'll respond as soon as possible.
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-center">
+                  <div className="bg-tutor-teal bg-opacity-20 p-3 rounded-full mr-4">
+                    <Mail className="h-6 w-6 text-tutor-teal" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-tutor-navy">Email</h3>
+                    <a href="mailto:jane.zafran@example.com" className="text-tutor-gray hover:text-tutor-teal">
+                      jane.zafran@example.com
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="flex items-center">
+                  <div className="bg-tutor-teal bg-opacity-20 p-3 rounded-full mr-4">
+                    <Phone className="h-6 w-6 text-tutor-teal" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-tutor-navy">Phone</h3>
+                    <a href="tel:+11234567890" className="text-tutor-gray hover:text-tutor-teal">
+                      (123) 456-7890
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="flex items-center">
+                  <div className="bg-tutor-teal bg-opacity-20 p-3 rounded-full mr-4">
+                    <Linkedin className="h-6 w-6 text-tutor-teal" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-tutor-navy">LinkedIn</h3>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-tutor-gray hover:text-tutor-teal">
+                      Jane Zafran
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
