@@ -68,11 +68,8 @@ const Pricing = () => {
             </div>
             
             {/* AP English */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transform scale-105 z-10">
-              <div className="bg-tutor-teal p-6 text-center relative">
-                <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-tutor-gold text-white text-xs font-bold px-3 py-1 rounded-full transform rotate-3">
-                  Popular
-                </div>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+              <div className="bg-tutor-navy p-6 text-center">
                 <h3 className="text-xl font-serif font-semibold text-white">AP English</h3>
                 <div className="text-sm text-white opacity-80 mt-1">(Literature or Language)</div>
                 <div className="mt-4">
