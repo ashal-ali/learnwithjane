@@ -1,24 +1,14 @@
-
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
-
 const About = () => {
-  return (
-    <Layout>
-      <PageHeader 
-        title="About Jane Zafran" 
-        subtitle="English Academic Tutor and College Application Essay Editor" 
-      />
+  return <Layout>
+      <PageHeader title="About Jane Zafran" subtitle="English Academic Tutor and College Application Essay Editor" />
       
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img 
-                src="/lovable-uploads/f3511f32-e5e0-426f-acf2-123341c9b8d3.png" 
-                alt="Jane Zafran" 
-                className="rounded-lg shadow-lg w-full max-w-md mx-auto"
-              />
+              <img alt="Jane Zafran" src="/lovable-uploads/d94d04f8-a1d0-4936-ac00-37ccbea458c6.png" className="rounded-lg shadow-lg w-full max-w-md mx-auto object-scale-down" />
             </div>
             
             <div>
@@ -51,8 +41,6 @@ const About = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default About;
