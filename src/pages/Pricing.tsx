@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
 import { Link } from "react-router-dom";
@@ -71,7 +70,6 @@ const Pricing = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col h-full">
               <div className="bg-tutor-navy p-6 text-center">
                 <h3 className="text-xl font-serif font-semibold text-white leading-tight min-h-[28px]">AP English</h3>
-                <div className="text-sm text-white opacity-80 mt-1">(Literature or Language)</div>
                 <div className="mt-4">
                   <span className="text-4xl font-bold text-white">$195</span>
                   <span className="text-white ml-1">/hour</span>
