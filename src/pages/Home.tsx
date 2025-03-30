@@ -20,15 +20,13 @@ const Home = () => {
             English Academic Tutor and College Application Essay Editor
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <div className="sticky top-24 z-30">
-              <Button 
-                asChild
-                size="lg" 
-                className="bg-tutor-teal hover:bg-tutor-navy text-white font-medium px-8"
-              >
-                <Link to="/services">View Services</Link>
-              </Button>
-            </div>
+            <Button 
+              asChild
+              size="lg" 
+              className="bg-tutor-teal hover:bg-tutor-navy text-white font-medium px-8"
+            >
+              <Link to="/services">View Services</Link>
+            </Button>
             <Button 
               asChild
               variant="outline" 
