@@ -16,17 +16,17 @@ const Pricing = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* High School English */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col h-full">
               <div className="bg-tutor-navy p-6 text-center">
-                <h3 className="text-xl font-serif font-semibold text-white">High School English</h3>
+                <h3 className="text-xl font-serif font-semibold text-white leading-tight min-h-[28px]">High School English</h3>
                 <div className="mt-4">
                   <span className="text-4xl font-bold text-white">$145</span>
                   <span className="text-white ml-1">/hour</span>
                 </div>
               </div>
               
-              <div className="p-6">
-                <ul className="space-y-4">
+              <div className="p-6 flex flex-col flex-grow">
+                <ul className="space-y-4 mb-8 flex-grow">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-tutor-teal mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -59,8 +59,8 @@ const Pricing = () => {
                   </li>
                 </ul>
                 
-                <div className="mt-8">
-                  <Button asChild className="w-full bg-tutor-teal hover:bg-tutor-navy text-white">
+                <div className="mt-auto">
+                  <Button asChild className="w-full bg-tutor-teal hover:bg-tutor-navy text-white h-11">
                     <Link to="/contact">Schedule Session</Link>
                   </Button>
                 </div>
@@ -68,9 +68,9 @@ const Pricing = () => {
             </div>
             
             {/* AP English */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col h-full">
               <div className="bg-tutor-navy p-6 text-center">
-                <h3 className="text-xl font-serif font-semibold text-white">AP English</h3>
+                <h3 className="text-xl font-serif font-semibold text-white leading-tight min-h-[28px]">AP English</h3>
                 <div className="text-sm text-white opacity-80 mt-1">(Literature or Language)</div>
                 <div className="mt-4">
                   <span className="text-4xl font-bold text-white">$195</span>
@@ -78,8 +78,8 @@ const Pricing = () => {
                 </div>
               </div>
               
-              <div className="p-6">
-                <ul className="space-y-4">
+              <div className="p-6 flex flex-col flex-grow">
+                <ul className="space-y-4 mb-8 flex-grow">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-tutor-teal mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -112,8 +112,8 @@ const Pricing = () => {
                   </li>
                 </ul>
                 
-                <div className="mt-8">
-                  <Button asChild className="w-full bg-tutor-teal hover:bg-tutor-navy text-white">
+                <div className="mt-auto">
+                  <Button asChild className="w-full bg-tutor-teal hover:bg-tutor-navy text-white h-11">
                     <Link to="/contact">Schedule Session</Link>
                   </Button>
                 </div>
@@ -121,17 +121,17 @@ const Pricing = () => {
             </div>
             
             {/* College Application Essay Editing */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 flex flex-col h-full">
               <div className="bg-tutor-navy p-6 text-center">
-                <h3 className="text-xl font-serif font-semibold text-white">College Application Essay</h3>
+                <h3 className="text-xl font-serif font-semibold text-white leading-tight min-h-[28px]">College Application Essay</h3>
                 <div className="mt-4">
                   <span className="text-4xl font-bold text-white">$345</span>
                   <span className="text-white ml-1">/hour</span>
                 </div>
               </div>
               
-              <div className="p-6">
-                <ul className="space-y-4">
+              <div className="p-6 flex flex-col flex-grow">
+                <ul className="space-y-4 mb-8 flex-grow">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-tutor-teal mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -164,8 +164,8 @@ const Pricing = () => {
                   </li>
                 </ul>
                 
-                <div className="mt-8">
-                  <Button asChild className="w-full bg-tutor-teal hover:bg-tutor-navy text-white">
+                <div className="mt-auto">
+                  <Button asChild className="w-full bg-tutor-teal hover:bg-tutor-navy text-white h-11">
                     <Link to="/contact">Schedule Session</Link>
                   </Button>
                 </div>
