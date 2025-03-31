@@ -8,9 +8,9 @@ const Home = () => {
     <Layout>
       <div 
         className="bg-cover bg-center h-[80vh] flex items-center justify-center relative"
-        style={{ backgroundImage: "url('/lovable-uploads/58750fd6-0de6-492c-acc9-192967683e2f.png')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')" }}
       >
-        <div className="absolute inset-0 bg-tutor-navy bg-opacity-60"></div>
+        <div className="absolute inset-0 bg-tutor-navy bg-opacity-40"></div>
         
         <div className="relative z-[5] text-center px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
