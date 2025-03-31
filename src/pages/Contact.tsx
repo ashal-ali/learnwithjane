@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
@@ -66,6 +65,9 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Form - Now on the left */}
             <div>
+              <p className="text-lg text-tutor-gray mb-6">
+                Please reach out to schedule a free 30-minute consultation.
+              </p>
               <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                   <div>
@@ -182,8 +184,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-tutor-navy">Email</h3>
-                    <a href="mailto:jane.zafran@example.com" className="text-tutor-gray hover:text-tutor-teal">
-                      jane.zafran@example.com
+                    <a href="mailto:jane.zafran@gmail.com" className="text-tutor-gray hover:text-tutor-teal">
+                      jane.zafran@gmail.com
                     </a>
                   </div>
                 </div>
@@ -194,8 +196,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-tutor-navy">Phone</h3>
-                    <a href="tel:+11234567890" className="text-tutor-gray hover:text-tutor-teal">
-                      (123) 456-7890
+                    <a href="tel:+16507735654" className="text-tutor-gray hover:text-tutor-teal">
+                      (650) 773-5654
                     </a>
                   </div>
                 </div>

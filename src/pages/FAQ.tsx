@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import PageHeader from "@/components/PageHeader";
 import { Link } from "react-router-dom";
@@ -55,6 +54,8 @@ const FAQ = () => {
               <div className="text-tutor-gray leading-relaxed">
                 <p>
                   Sessions are conducted virtually.
+                  <br /><br />
+                  ** on a select basis, sessions may be conducted in person. Please contact Jane for more information.
                 </p>
               </div>
             </div>

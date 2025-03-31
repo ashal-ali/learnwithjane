@@ -1,4 +1,3 @@
-
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -11,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-serif font-semibold mb-4">Jane Zafran</h3>
-            <p className="text-gray-300">English Academic Tutor and College Application Essay Editor</p>
+            <p className="text-gray-300">English 9-12 Academic Tutor and College Application Essay Editor</p>
           </div>
           
           <div>
