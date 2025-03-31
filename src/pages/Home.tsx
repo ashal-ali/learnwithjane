@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
@@ -8,7 +7,7 @@ const Home = () => {
     <Layout>
       <div 
         className="bg-cover bg-center h-[80vh] flex items-center justify-center relative"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2920&q=80')" }}
+        style={{ backgroundImage: "url('/lovable-uploads/7911c1cf-2cb8-40db-b837-a300b5971904.png')" }}
       >
         <div className="absolute inset-0 bg-tutor-navy bg-opacity-50"></div>
         
