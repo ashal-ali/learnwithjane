@@ -8,15 +8,15 @@ const Home = () => {
     <Layout>
       <div 
         className="bg-cover bg-center h-[80vh] flex items-center justify-center relative"
-        style={{ backgroundImage: "url('/lovable-uploads/e68e709b-f9b6-4365-bb61-2d5c0454173e.png')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')" }}
       >
-        <div className="absolute inset-0 bg-tutor-navy bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         
         <div className="relative z-[5] text-center px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
             Jane Zafran
           </h1>
-          <p className="text-xl md:text-2xl text-white mb-12 leading-relaxed">
+          <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed">
             English Academic Tutor and College Application Essay Editor
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -61,7 +61,7 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-md p-8 transition-transform hover:scale-105 h-full flex flex-col">
               <h3 className="text-2xl font-serif font-semibold text-tutor-navy mb-4 leading-tight">English Academic Tutoring</h3>
               <p className="text-tutor-gray mb-6 flex-grow">
-                Comprehensive tutoring for high school students, including AP English Literature and Language, critical reading skills, essay writing, and test preparation.
+                Comprehensive tutoring for high school students, including AP English Literature and AP English Language.
               </p>
               <Button asChild className="bg-tutor-teal hover:bg-tutor-navy text-white w-fit">
                 <Link to="/services">Learn More</Link>
@@ -71,7 +71,7 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-md p-8 transition-transform hover:scale-105 h-full flex flex-col">
               <h3 className="text-2xl font-serif font-semibold text-tutor-navy mb-4 leading-tight">College Application Essay Editing</h3>
               <p className="text-tutor-gray mb-6 flex-grow">
-                Expert guidance on brainstorming, drafting, and editing college application essays, providing feedback on structure, clarity, and personal narrative.
+                Expert guidance on brainstorming, drafting, and editing college application essays.
               </p>
               <Button asChild className="bg-tutor-teal hover:bg-tutor-navy text-white w-fit">
                 <Link to="/services">Learn More</Link>
