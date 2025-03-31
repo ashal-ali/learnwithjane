@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
@@ -7,7 +8,7 @@ const Home = () => {
     <Layout>
       <div 
         className="bg-cover bg-center h-[80vh] flex items-center justify-center relative"
-        style={{ backgroundImage: "url('/lovable-uploads/e6f88450-95e6-40d5-ad93-ee6043352afc.png')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2920&q=80')" }}
       >
         <div className="absolute inset-0 bg-tutor-navy bg-opacity-50"></div>
         
@@ -60,7 +61,7 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-md p-8 transition-transform hover:scale-105 h-full flex flex-col">
               <h3 className="text-2xl font-serif font-semibold text-tutor-navy mb-4 leading-tight">English Academic Tutoring</h3>
               <p className="text-tutor-gray mb-6 flex-grow">
-                Comprehensive tutoring for high school students, including AP English Literature and AP English Language.
+                Comprehensive tutoring for high school students, including AP English Literature and Language, critical reading skills, essay writing, and test preparation.
               </p>
               <Button asChild className="bg-tutor-teal hover:bg-tutor-navy text-white w-fit">
                 <Link to="/services">Learn More</Link>
@@ -70,7 +71,7 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-md p-8 transition-transform hover:scale-105 h-full flex flex-col">
               <h3 className="text-2xl font-serif font-semibold text-tutor-navy mb-4 leading-tight">College Application Essay Editing</h3>
               <p className="text-tutor-gray mb-6 flex-grow">
-                Expert guidance on brainstorming, drafting, and editing college application essays.
+                Expert guidance on brainstorming, drafting, and editing college application essays, providing feedback on structure, clarity, and personal narrative.
               </p>
               <Button asChild className="bg-tutor-teal hover:bg-tutor-navy text-white w-fit">
                 <Link to="/services">Learn More</Link>
