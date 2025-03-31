@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
@@ -7,15 +8,15 @@ const Home = () => {
     <Layout>
       <div 
         className="bg-cover bg-center h-[80vh] flex items-center justify-center relative"
-        style={{ backgroundImage: "url('/lovable-uploads/7911c1cf-2cb8-40db-b837-a300b5971904.png')" }}
+        style={{ backgroundImage: "url('/lovable-uploads/e68e709b-f9b6-4365-bb61-2d5c0454173e.png')" }}
       >
         <div className="absolute inset-0 bg-tutor-navy bg-opacity-50"></div>
         
         <div className="relative z-[5] text-center px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 leading-tight">
             Jane Zafran
           </h1>
-          <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed">
+          <p className="text-xl md:text-2xl text-white mb-12 leading-relaxed">
             English Academic Tutor and College Application Essay Editor
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
