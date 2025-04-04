@@ -66,7 +66,7 @@ const Contact = () => {
             {/* Form - Now on the left */}
             <div>
               <p className="text-lg text-tutor-gray mb-6">
-                Please reach out to schedule a free 30-minute consultation.
+                Please reach out with any questions or to schedule a free 30-minute consultation.
               </p>
               <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
@@ -173,7 +173,7 @@ const Contact = () => {
             <div>
               <h2 className="text-2xl font-serif font-bold text-tutor-navy mb-6">Get in Touch</h2>
               <p className="text-tutor-gray mb-8">
-                I'm here to answer any questions you may have about my tutoring services. 
+                I'm here to answer any questions you may have about my tutoring or editing services. 
                 Fill out the form, and I'll respond as soon as possible.
               </p>
               

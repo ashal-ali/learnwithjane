@@ -7,7 +7,7 @@ const Home = () => {
     <Layout>
       <div 
         className="bg-cover bg-center h-[80vh] flex items-center justify-center relative"
-        style={{ backgroundImage: "url('/workspace-background.png')" }}
+        style={{ backgroundImage: "url('/lovable-uploads/workspace-coffee.jpg')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         
@@ -45,7 +45,7 @@ const Home = () => {
             <p className="text-lg text-tutor-gray mb-8 leading-relaxed">
               Personalized academic tutoring and college application essay editing services to help you achieve your educational goals. Working one-on-one to strengthen critical thinking, reading, and writing skills.
             </p>
-            <Button asChild className="bg-tutor-navy hover:bg-tutor-teal text-white font-medium px-8 h-12">
+            <Button asChild className="bg-tutor-teal hover:bg-tutor-navy text-white font-medium px-8 h-12">
               <Link to="/about">Learn More About Me</Link>
             </Button>
           </div>

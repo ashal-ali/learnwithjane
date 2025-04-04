@@ -27,7 +27,7 @@ const About = () => {
               
               <div className="space-y-4 text-tutor-gray leading-relaxed">
                 <p>
-                  Jane grew up in the Bay Area, California, where she attended Castilleja School and Menlo School. She went on to pursue further study at Brown University, where she co-founded and served as Co-Editor-in-Chief of the <i>Brown Journal of Medical Humanities</i>, a medical literary journal that bridges the sciences and humanities.
+                  Jane grew up in the Bay Area, California, where she attended Castilleja School and Menlo School. She went on to pursue further study at Brown University, where she co-founded and served as Co-Editor-in-Chief of <i>The Brown Journal of Medical Humanities</i>, a medical literary journal that bridges the sciences and humanities.
                 </p>
                 
                 <p>
@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 
                 <p>
-                  A former swimmer and water polo player, Jane loves staying active, now dedicating her free time to strength training and Pilates. She is also an avid reader of both fiction and nonfiction, enjoying everything from Leo Tolstoy's Anna Karenina to Malcolm Gladwell's Outliers.
+                  A former swimmer and water polo player, Jane loves staying active, now dedicating her free time to strength training and Pilates. She is also an avid reader of both fiction and nonfiction, enjoying everything from Leo Tolstoy's <i>Anna Karenina</i> to Malcolm Gladwell's <i>Outliers</i>.
                 </p>
               </div>
             </div>
