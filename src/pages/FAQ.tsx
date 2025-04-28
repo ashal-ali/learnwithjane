@@ -55,7 +55,7 @@ const FAQ = () => {
                 <p>
                   Sessions are conducted virtually.
                   <br /><br />
-                  **On a select basis, sessions may be conducted in person. Please contact Jane for more information.
+                  **On a select basis, sessions may be conducted in person. Please <Link to="/contact" className="text-tutor-teal hover:text-tutor-navy underline">contact</Link> Jane for more information.
                 </p>
               </div>
             </div>

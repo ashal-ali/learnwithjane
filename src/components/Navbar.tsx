@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Linkedin } from "lucide-react";
@@ -26,9 +25,10 @@ const Navbar = () => {
             <Link to="/services" className="text-tutor-gray hover:text-tutor-teal transition-colors font-medium">Services</Link>
             <Link to="/pricing" className="text-tutor-gray hover:text-tutor-teal transition-colors font-medium">Pricing</Link>
             <Link to="/faq" className="text-tutor-gray hover:text-tutor-teal transition-colors font-medium">FAQ</Link>
+            <Link to="/publications" className="text-tutor-gray hover:text-tutor-teal transition-colors font-medium">Portfolio</Link>
             <Link to="/contact" className="text-tutor-gray hover:text-tutor-teal transition-colors font-medium">Contact</Link>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/janezafran/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-tutor-teal hover:text-tutor-navy transition-colors"
@@ -91,6 +91,13 @@ const Navbar = () => {
               FAQ
             </Link>
             <Link 
+              to="/publications" 
+              className="block px-3 py-2 text-tutor-gray hover:text-tutor-teal transition-colors font-medium"
+              onClick={toggleMenu}
+            >
+              Portfolio
+            </Link>
+            <Link 
               to="/contact" 
               className="block px-3 py-2 text-tutor-gray hover:text-tutor-teal transition-colors font-medium"
               onClick={toggleMenu}
@@ -98,7 +105,7 @@ const Navbar = () => {
               Contact
             </Link>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/janezafran/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="flex items-center px-3 py-2 text-tutor-teal hover:text-tutor-navy transition-colors font-medium"

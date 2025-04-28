@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Layout>
       <PageHeader 
-        title="About Jane Zafran" 
+        title="About Jane" 
         subtitle="English 9-12 Academic Tutor and College Application Essay Editor" 
       />
       
@@ -27,11 +27,11 @@ const About = () => {
               
               <div className="space-y-4 text-tutor-gray leading-relaxed">
                 <p>
-                  Jane grew up in the Bay Area, California, where she attended Castilleja School and Menlo School. She went on to pursue further study at Brown University, where she co-founded and served as Co-Editor-in-Chief of <i>The Brown Journal of Medical Humanities</i>, a medical literary journal that bridges the sciences and humanities.
+                  Jane grew up in the Bay Area, California, where she attended Castilleja School and Menlo School. She went on to pursue further study at Brown University, where she co-founded and served as Co-Editor-in-Chief of <i><a href="https://sites.brown.edu/bjmh/" target="_blank" rel="noopener noreferrer" className="text-tutor-teal hover:text-tutor-navy">The Brown Journal of Medical Humanities</a></i>, a medical literary journal that bridges the sciences and humanities.
                 </p>
                 
                 <p>
-                  Jane is currently an Editor for <i>The Pegasus Review</i>, a journal of narrative medicine at Stanford University's School of Medicine. She is also a member of The Pegasus Physician Writers at Stanford, a group of physician authors dedicated to medical humanities and creative writing.
+                  Jane is currently Chief of Staff and Head Copy Editor for <i><a href="https://thepegasusreview.com/from-the-editors/" target="_blank" rel="noopener noreferrer" className="text-tutor-teal hover:text-tutor-navy">The Pegasus Review</a></i>, a journal of narrative medicine at Stanford University's School of Medicine. She is also a member of <a href="https://www.pegasusphysicians.org/" target="_blank" rel="noopener noreferrer" className="text-tutor-teal hover:text-tutor-navy">The Pegasus Physician Writers</a> at Stanford, a group of physician authors dedicated to medical humanities and creative writing.
                 </p>
                 
                 <p>

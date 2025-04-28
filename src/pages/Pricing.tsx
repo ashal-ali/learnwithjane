@@ -19,7 +19,7 @@ const Pricing = () => {
               <div className="bg-tutor-navy p-6 text-center">
                 <h3 className="text-xl font-serif font-semibold text-white leading-tight min-h-[28px]">High School English</h3>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-white">$145</span>
+                  <span className="text-4xl font-bold text-white">$195</span>
                   <span className="text-white ml-1">/hour</span>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const Pricing = () => {
               <div className="bg-tutor-navy p-6 text-center">
                 <h3 className="text-xl font-serif font-semibold text-white leading-tight min-h-[28px]">AP English</h3>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-white">$195</span>
+                  <span className="text-4xl font-bold text-white">$245</span>
                   <span className="text-white ml-1">/hour</span>
                 </div>
               </div>
@@ -123,7 +123,7 @@ const Pricing = () => {
               <div className="bg-tutor-navy p-6 text-center">
                 <h3 className="text-xl font-serif font-semibold text-white leading-tight min-h-[28px]">College Application Essay</h3>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold text-white">$345</span>
+                  <span className="text-4xl font-bold text-white">$395</span>
                   <span className="text-white ml-1">/hour</span>
                 </div>
               </div>

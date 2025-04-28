@@ -60,7 +60,7 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-md p-8 transition-transform hover:scale-105 h-full flex flex-col">
               <h3 className="text-2xl font-serif font-semibold text-tutor-navy mb-4 leading-tight">English Academic Tutoring</h3>
               <p className="text-tutor-gray mb-6 flex-grow">
-                Comprehensive tutoring for high school students, including AP English Literature and AP English Language.
+                Comprehensive tutoring for high school students, including AP English Literature and Composition and AP English Language and Composition.
               </p>
               <Button asChild className="bg-tutor-teal hover:bg-tutor-navy text-white w-fit">
                 <Link to="/services">Learn More</Link>

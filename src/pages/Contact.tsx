@@ -34,6 +34,9 @@ const Contact = () => {
     
     // Simulate form submission
     setTimeout(() => {
+      // In a real application, you would send the form data to jane@janezafran.com
+      // For example, using a backend API or email service
+      
       toast({
         title: "Message Sent",
         description: "Thank you for reaching out! I'll get back to you soon.",
@@ -184,8 +187,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-tutor-navy">Email</h3>
-                    <a href="mailto:jane.zafran@gmail.com" className="text-tutor-gray hover:text-tutor-teal">
-                      jane.zafran@gmail.com
+                    <a href="mailto:jane@janezafran.com" className="text-tutor-gray hover:text-tutor-teal">
+                      jane@janezafran.com
                     </a>
                   </div>
                 </div>
@@ -208,7 +211,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-tutor-navy">LinkedIn</h3>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-tutor-gray hover:text-tutor-teal">
+                    <a href="https://www.linkedin.com/in/janezafran/" target="_blank" rel="noopener noreferrer" className="text-tutor-gray hover:text-tutor-teal">
                       Jane Zafran
                     </a>
                   </div>
